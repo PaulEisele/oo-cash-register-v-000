@@ -19,8 +19,8 @@ class CashRegister
      while quantity > 0 do
        @items << item
        quantity -= 1
+     end
    end
- end
 
    def apply_discount
      if @discount != 0
